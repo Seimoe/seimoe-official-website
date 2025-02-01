@@ -91,9 +91,9 @@ const Services = () => (
                 />
                 <ServiceCard
                     icon={Eye}
-                    title="Seimoe OCR"
-                    description="智能文字识别服务，轻松提取图片中的文字内容"
-                    link="/abc"
+                    title="Sanuki OCR"
+                    description="由希茉的姐姐Sanuki提供的智能图片文字识别服务，轻松提取图片中的文字内容"
+                    link="https://ocr.seimoe.com"
                 />
             </div>
         </div>
@@ -162,7 +162,7 @@ const Footer = () => (
                     <ul className="space-y-2">
                         <li><a href="/abc" className="text-gray-400 hover:text-white">智能对话</a></li>
                         <li><a href="/abc" className="text-gray-400 hover:text-white">Seimoe Search</a></li>
-                        <li><a href="/abc" className="text-gray-400 hover:text-white">Seimoe OCR</a></li>
+                        <li><a href="https://ocr.seimoe.com" className="text-gray-400 hover:text-white">Sanuki OCR</a></li>
                     </ul>
                 </div>
                 <div>
