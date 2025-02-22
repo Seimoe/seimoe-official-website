@@ -8,7 +8,7 @@ const Header = () => {
         <header className="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50">
             <nav className="container mx-auto px-4 py-2 flex justify-between items-center">
                 <div className="flex items-center space-x-2">
-                    <Image src="/seimoe-logo.png" alt="Seimoe Logo" className="max-h-10 w-auto rounded-full" />
+                    <Image src="/seimoe-logo.png" alt="Seimoe Logo" width={64} height={64} className="max-h-10 w-auto rounded-full" />
                     <span className="text-xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
                         Seimoe
                     </span>
@@ -39,9 +39,9 @@ const Hero = () => (
                     无论是日常对话、信息搜索，还是智能处理，希茉都将成为你的得力助手。
                 </p>
                 <div className="flex space-x-4">
-                    <a href="/abc"
+                    <a href="https://chat.seimoe.com"
                        className="px-8 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full hover:opacity-90 flex items-center">
-                        立即体验
+                        立即体验(开发版本)
                         <ChevronRight className="ml-2" size={20}/>
                     </a>
                     <a href="/about"
@@ -79,9 +79,9 @@ const Services = () => (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ServiceCard
                     icon={MessageSquare}
-                    title="智能对话"
+                    title="希茉聊天(开发版本)"
                     description="与希茉进行自然流畅的对话，获得准确的答案和贴心的帮助"
-                    link="/abc"
+                    link="https://chat.seimoe.com"
                 />
                 <ServiceCard
                     icon={Search}
@@ -160,7 +160,7 @@ const Footer = () => (
                 <div>
                     <h4 className="font-semibold mb-4">服务</h4>
                     <ul className="space-y-2">
-                        <li><a href="/abc" className="text-gray-400 hover:text-white">智能对话</a></li>
+                        <li><a href="https://chat.seimoe.com" className="text-gray-400 hover:text-white">希茉聊天</a></li>
                         <li><a href="/abc" className="text-gray-400 hover:text-white">Seimoe Search</a></li>
                         <li><a href="https://ocr.seimoe.com" className="text-gray-400 hover:text-white">Sanuki OCR</a></li>
                     </ul>

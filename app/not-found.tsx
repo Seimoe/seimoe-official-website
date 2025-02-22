@@ -10,7 +10,9 @@ const NotFound = () => {
                 {/* 圆形图片容器 */}
                 <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-white dark:bg-gray-800 shadow-lg overflow-hidden border-4 border-orange-200 dark:border-orange-900/30">
                     <Image
-                        src="/confused.png" // 这里放置你的表情图片
+                        src="/confused.png"
+                        width={192}
+                        height={192}
                         alt="Seimoe 404"
                         className="w-full h-full object-cover"
                     />
